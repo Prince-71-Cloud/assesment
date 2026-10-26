@@ -1,0 +1,11 @@
+{
+  "task_id": "web_sqli_seed",
+  "family": "web_sqli",
+  "type": "web",
+  "title": "In-band UNION-based SQLi",
+  "difficulty": "easy",
+  "prompt": "The product lookup endpoint GET /product?id=<n> is injectable in a numeric context. The flag lives in a separate table `secret_flag`. Use a UNION-based injection to read it.",
+  "flag": "FLAG{union_select_all_the_things}",
+  "flag_format": "FLAG\\{[a-z0-9_]+\\}",
+  "port": 8000
+}

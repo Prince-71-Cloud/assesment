@@ -1,0 +1,11 @@
+{
+  "task_id": "web_sqli_v01",
+  "family": "web_sqli",
+  "type": "web",
+  "title": "Authentication bypass via SQLi",
+  "difficulty": "easy-medium",
+  "prompt": "POST /login builds its WHERE clause from username/password by string concatenation. Log in without valid credentials; the admin page returns the flag.",
+  "flag": "FLAG{auth_bypass_or_1_eq_1}",
+  "flag_format": "FLAG\\{[a-z0-9_]+\\}",
+  "port": 8000
+}

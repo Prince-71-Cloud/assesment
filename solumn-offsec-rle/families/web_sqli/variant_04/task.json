@@ -1,0 +1,11 @@
+{
+  "task_id": "web_sqli_v04",
+  "family": "web_sqli",
+  "type": "web",
+  "title": "Blind SQLi with filter bypass",
+  "difficulty": "hard",
+  "prompt": "Same blind oracle as v03, but a naive filter rejects spaces and strips the keywords select/or/union (single pass, case-insensitive). Bypass it with inline comments and keyword nesting.",
+  "flag": "FLAG{filters_are_made_to_break}",
+  "flag_format": "FLAG\\{[a-z0-9_]+\\}",
+  "port": 8000
+}

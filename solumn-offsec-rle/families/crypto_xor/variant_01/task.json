@@ -1,0 +1,10 @@
+{
+  "task_id": "crypto_xor_v01",
+  "family": "crypto_xor",
+  "type": "crypto",
+  "title": "Repeating-key XOR (short key)",
+  "difficulty": "easy-medium",
+  "prompt": "challenge/cipher.hex was produced with a short multi-byte repeating key. Break the Vigenere-style XOR and submit the flag.",
+  "flag": "FLAG{repeating_keys_leak_structure}",
+  "flag_format": "FLAG\\{[a-z0-9_]+\\}"
+}

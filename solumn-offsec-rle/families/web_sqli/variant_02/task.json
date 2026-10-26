@@ -1,0 +1,11 @@
+{
+  "task_id": "web_sqli_v02",
+  "family": "web_sqli",
+  "type": "web",
+  "title": "Schema enumeration via sqlite_master",
+  "difficulty": "medium",
+  "prompt": "GET /search?q=<term> is UNION-injectable, but the flag table has a randomised name. Enumerate the schema through sqlite_master to find the table and its column, then exfiltrate the flag.",
+  "flag": "FLAG{errors_tell_you_secrets}",
+  "flag_format": "FLAG\\{[a-z0-9_]+\\}",
+  "port": 8000
+}

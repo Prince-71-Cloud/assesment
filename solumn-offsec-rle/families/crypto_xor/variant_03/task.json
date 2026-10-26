@@ -1,0 +1,10 @@
+{
+  "task_id": "crypto_xor_v03",
+  "family": "crypto_xor",
+  "type": "crypto",
+  "title": "Two-time pad (key reuse)",
+  "difficulty": "medium-hard",
+  "prompt": "challenge/ ships two ciphertexts encrypted with the SAME one-time-pad keystream, plus the known plaintext of the second message. Recover the first message and submit its flag.",
+  "flag": "FLAG{never_reuse_the_pad}",
+  "flag_format": "FLAG\\{[a-z0-9_]+\\}"
+}

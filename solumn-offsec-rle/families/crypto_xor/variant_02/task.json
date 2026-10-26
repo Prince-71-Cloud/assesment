@@ -1,0 +1,10 @@
+{
+  "task_id": "crypto_xor_v02",
+  "family": "crypto_xor",
+  "type": "crypto",
+  "title": "Repeating-key XOR (longer unknown key)",
+  "difficulty": "medium",
+  "prompt": "Same idea as before, but the key is longer and its length is unknown. Use Hamming-distance key-length detection, then solve each column.",
+  "flag": "FLAG{longer_keys_need_hamming}",
+  "flag_format": "FLAG\\{[a-z0-9_]+\\}"
+}

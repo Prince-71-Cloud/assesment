@@ -1,0 +1,10 @@
+{
+  "task_id": "crypto_xor_seed",
+  "family": "crypto_xor",
+  "type": "crypto",
+  "title": "Single-byte XOR",
+  "difficulty": "easy",
+  "prompt": "challenge/cipher.hex contains a short message XORed against a single repeating byte. Recover the plaintext and submit the flag inside it.",
+  "flag": "FLAG{single_byte_xor_is_trivial}",
+  "flag_format": "FLAG\\{[a-z0-9_]+\\}"
+}

@@ -1,0 +1,10 @@
+{
+  "task_id": "crypto_xor_v04",
+  "family": "crypto_xor",
+  "type": "crypto",
+  "title": "Many-time pad",
+  "difficulty": "hard",
+  "prompt": "challenge/ciphertexts.json holds ten messages all XORed with the SAME keystream. One contains the flag. Recover the keystream statistically and submit the flag.",
+  "flag": "FLAG{many_time_pad_is_broken}",
+  "flag_format": "FLAG\\{[a-z0-9_]+\\}"
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "web_sqli_v03",
+  "family": "web_sqli",
+  "type": "web",
+  "title": "Blind boolean-based SQLi",
+  "difficulty": "hard",
+  "prompt": "GET /check?user=<name> reveals only whether a user exists. No data is echoed. Use the boolean oracle to extract the flag from `secret_flag` one character at a time.",
+  "flag": "FLAG{blind_but_not_helpless}",
+  "flag_format": "FLAG\\{[a-z0-9_]+\\}",
+  "port": 8000
+}
